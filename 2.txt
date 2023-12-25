@@ -1,9 +1,15 @@
 git init		新建git工程
 git add 		添加文件
-git commit
+git commit -m"注释"
 $ git log --pretty=oneline  查看过去版本信息
 $ git reset --hard commit_num 回退过去版本
 $ git reflog  查看历史版本
 git checkout -- 2.txt 下载回上一版本的2.txt文件
 git diff HEAD -- 2.txt 查看工作区和版本库的最新区别
 git reset HEAD 2.txt 将暂存区的修改清空
+
+$ git clone git@github.com:nomadic199/test.git 从github上下载仓库
+$ git remote add origin git@github.com:nomadic199/learn_git.git  将本地库与远程库连接
+$ git push -u origin master  第一次提交
+$ git push origin master   非第一次提交
+
