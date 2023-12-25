@@ -1,3 +1,6 @@
-git init
+git init		新建git工程
+git add 		添加文件
 git commit
 $ git log --pretty=oneline  查看过去版本信息
+$ git reset --hard commit_num 回退过去版本
+$ git reflog  查看历史版本
